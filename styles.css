@@ -12,6 +12,14 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.header {
+  position: fixed;
+}
+.header.scrolled {
+    background-color: #fff;
+    width: 100%;
+}
+
 .main-section {
   background-image: url('./images/Website-background.png');
   background-size: cover;
@@ -236,7 +244,10 @@ body {
 
 @media only screen and (min-width: 768px) {
   .main-section,
-  .artworks {
+  .artworks,
+  .discover,
+  .partner,
+  .footer {
     width: 30%;
     margin: 4rem 2rem;
   }
