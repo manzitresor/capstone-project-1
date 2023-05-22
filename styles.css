@@ -1,4 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Lato:wght@300;400;700;900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .main-section {
+    /* background-image:linear-gradient(rgba(250, 244, 244, 0.7), rgba(250, 244, 244, 0.5)), url('./images/background.jpg');
+     */
+     background-image: url('./images/Website-background.png');
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    padding: 1.5rem;
+  }
+
+  .menu-bar {
+    color: #c71313;
+    width: 20%;
+    height: 20%;
+    font-size: 30px;
+  }
+  
+  .menu-bar:hover {
+    cursor: pointer;
+  }
+
+  .main-content {
+    margin: 30px auto;
+  }
+
+  .heading-one {
+    font-size: 20px;
+    color:#ea1b1b;
+    margin: 10px auto;
+  }
+
+  .heading-two {
+    background-image:url('./images/heading-background.jpg');
+    background-size: 180px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .welcome-content {
+    background-color:rgb(250, 244, 244);
+    border: 6px solid white;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 28px;
+    margin:30px auto;
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .authentic {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .authentic i {
+    font-size: 28px;
+    color: #ea1b1b;
+    margin-right: 10px;
+  }
+
+  .authentic-heading{
+    font-size: 22px;
+}
+
+  .authentic-paragraph {
+    font-size: 12px;
+}
+
+  .artworks {
+    background-image: url('./images/program-section-bg.png');
+    width: 100%;
+    height: 100%;
+}
+
+  .artwork-heading {
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+  .line{
+    border: 1px solid orangered;
+    width: 10%; 
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: grid;
+    gap: 10px;
+}
+
+  .Contemporary {
+    background-color: rgba(177, 170, 170, 0.2);
+    width: 95%;
+    display: flex;
+    margin: auto;
+    gap: 6px;
+    align-items: center;
+  }
+
+.Contemporary-image {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.contemporary-heading {
+    width: 110px;
+    font-size: 16px;
+    color: orangered;
+    overflow-wrap: break-word;
+}
+
+.contemporary-paragraph {
+    color: #ebe2e2;
+    font-weight: 400;
+    font-size: 13px;
+    overflow-wrap: break-word;
+}
+
+.discover {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh
+}
+
+.discover-heading {
+    color: #383636;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.discover-card-container {
+    display: grid;
+} 
+
+.discover-card-one {
+     /* border: 2px solid red; */
+     display: flex;  
+     padding: 20px; 
+}
+
+.discover-img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+}
+
+.image-border {
+   background-color: orangered;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+}
+
+.discover-listing {
+  list-style: none;
+  color: #383636;
+  padding: 10px 0 10px 30px;
+}
+
+.discover-listing li {
+  padding: 3px;
+}
+
+.discover-name {
+  color: orangered;
+  font-size: 20px;
+  padding: 20px auto;
+  margin-bottom: 7px;
+}
+
+  @media only screen and (min-width: 768px) {
+    .main-section,
+    .artworks {
+        width:30%;
+        margin: 4rem 2rem;
+    }
+  }
