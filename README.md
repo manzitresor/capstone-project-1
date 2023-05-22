@@ -67,7 +67,8 @@
 - Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+### Live Demo 
+<a name="live-demo" href="https://manzitresor.github.io/capstone-project-1/">Live demo</a>
 
 <!-- GETTING STARTED -->
 
