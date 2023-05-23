@@ -267,7 +267,6 @@ body {
 
 .markert-place {
   margin-top: 30px;
-  border: 1px solid orangered;
   padding: 20px;
 }
 
@@ -519,5 +518,33 @@ body {
 
   .logo {
     width: 200px;
+  }
+
+  .about-heading {
+    font-size: 60px;
+    line-height: 100%;
+  }
+
+  .about-welcome-content {
+    width: 100%;
+    line-height: 100%;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 4%;
+  }
+
+  .markert-place {
+    margin-left: 80px;
+  }
+  
+  .markert-place-heading {
+    font-size: 25px;
+  }
+
+  .market-place-paragraph {
+    font-size: 18px;
+    font-weight: normal;
+    width: 80%;
+    padding-top: 10px;
   }
 }
