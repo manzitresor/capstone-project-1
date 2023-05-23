@@ -351,13 +351,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .discover,
-  .partner,
-  .footer {
-    width: 30%;
-    margin: 4rem 2rem;
-  }
-
   .menu-bar {
     display: none;
   }
@@ -499,4 +492,33 @@ body {
     font-weight: 400;
     font-size: 13px;
   }
+
+  .discover-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    padding-left: 10%;
+    height: 80vh;
+  }
+
+  .partner-images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+  .partner-img {
+    width: 200px;
+    height: 75px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
 }
