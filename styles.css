@@ -12,6 +12,30 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.menu-list {
+  display: none;
+  background-color: rgb(233, 99, 50);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  opacity: 0.9;
+  font-size: 35px;
+  color: #fff;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+}
+
+.close-btn {
+ float: right;
+ list-style: none;
+ cursor: pointer;
+}
+
 .up-nav {
   display: none;
 }
@@ -348,6 +372,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .menu-list{
+    display: none;
+  }
+
   .menu-bar {
     display: none;
   }
@@ -549,7 +577,7 @@ body {
   .content-one {
     padding: 7% 10% 15% 10%;
   }
-
+  
   .our-mission-heading {
     font-size: 28px;
     padding-bottom: 20px;
