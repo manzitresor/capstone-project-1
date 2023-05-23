@@ -12,13 +12,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.header {
-  position: fixed;
-  padding: 25px;
+.up-nav {
+  display: none;
 }
 
-.header.scrolled {
-  background-color: #fff;
+.nav-list {
+  display: none;
+}
+
+.nav-bar {
+  background-color: #f8f4f4;
   width: 100%;
 }
 
@@ -348,12 +351,83 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .main-section,
   .artworks,
   .discover,
   .partner,
   .footer {
     width: 30%;
     margin: 4rem 2rem;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
+  }
+
+  .nav-logo {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: orangered;
+    padding-left: 50px;
+  }
+
+  .nav-list-menu {
+    margin-right: 100px;
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-list-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+  }
+
+  .nav-list-menu li a:hover {
+    cursor: pointer;
+    color: orangered;
+  }
+
+  .up-nav {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .up-nav-list {
+    display: flex;
+    padding-top: 5px;
+    list-style: none;
+    margin-right: 100px;
+    color: white;
+  }
+
+  .up-nav-list li a {
+    text-decoration: none;
+    padding: 20px;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .main-section {
+    background-image: url('./images/desktop-about-bg_img.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
   }
 }
