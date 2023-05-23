@@ -54,3 +54,68 @@ artwork.forEach((project) => {
     `;
   cardContainer.innerHTML += artworkHTML;
 });
+
+const discovers = [
+  {
+    image: './images/richard.jpg',
+    name: 'Richard',
+    joined: 'Joined Artfinder: June 2018',
+    sale: 'Artworks for sale: 7',
+    location: 'United Kingdom',
+  },
+  {
+    image: './images/Shveta Saxena.jpeg',
+    name: 'Shveta Saxa',
+    joined: 'Joined Artfinder: June 2018',
+    sale: 'Artworks for sale: 7',
+    location: 'United Kingdom',
+  },
+  {
+    image: './images/download.jpg',
+    name: 'Cesare Vignato',
+    joined: 'Joined Artfinder: April 2015',
+    sale: 'Artworks for sale: 6',
+    location: 'Italy',
+  },
+  {
+    image: './images/Elenabondarenko.jpg',
+    name: 'Elena Bondarenko',
+    joined: 'Joined Artfinder: February 2017',
+    sale: 'Artworks for sale: 42',
+    location: 'Russian Federation',
+  },
+  {
+    image: './images/Suzanne+Winn+WebRes+HS+Blue+striped-17.jpg',
+    name: 'Suzanne Winn',
+    joined: 'Joined Artfinder: June 2018',
+    sale: 'Artworks for sale: 7',
+    location: 'United Kingdom',
+  },
+  {
+    image: './images/WhatsApp Image 2022-05-24 at 3.40.28 PM.jpeg',
+    name: 'Manzi Tresor',
+    joined: 'Joined Artfinder: June 2018',
+    sale: 'Artworks for sale: 7',
+    location: 'United Kingdom',
+  },
+
+];
+
+const discoverContainer = document.querySelector('.discover-card-container');
+
+discovers.forEach((discover) => {
+  const discoverHtml = `
+   <div class="discover-card-one">
+   <div class="image-border"></div>
+   <img src="${discover.image}" alt="" class="discover-img">
+   <ul class="discover-listing">
+   <li class="discover-name">${discover.name}</li>
+    <li><hr class="discover-line"></li>
+    <li>${discover.joined}</li>
+    <li>${discover.sale}</li>
+    <li>${discover.location}</li>
+   </ul>
+   </div>
+   `;
+  discoverContainer.innerHTML += discoverHtml;
+});
