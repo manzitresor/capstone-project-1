@@ -428,6 +428,40 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    border: 2px solid red;
   }
+
+  .main-content {
+    margin: auto 100px; 
+    width: 80%;
+  }
+
+  .heading-one {
+    font-size: 28px;
+  }
+
+  .heading-two {
+    font-size: 60px;
+    line-height: 100%
+  }
+
+  .welcome-content{
+    width: 100%;
+    line-height: 100%;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 4%;
+  }
+
+  .authentic {
+    margin-top: 0;
+  }
+
+  .authentic-heading {
+    font-size: 25px;
+  }
+
+  .authentic-paragraph {
+    font-size: 18px;
+  }
+
 }
