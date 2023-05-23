@@ -376,6 +376,7 @@ body {
   width: 100%;
   height: 190px;
   background-image: url('./images/exbition1.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -394,6 +395,7 @@ body {
 .exhibition-card-two {
   background-image: url('./images/exbition2.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 190px;
@@ -635,6 +637,10 @@ body {
   .exhibition-card-container {
     display: flex;
     flex-direction: row;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
   }
 
   .exhibition-card-one {
