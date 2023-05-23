@@ -213,7 +213,7 @@ body {
 .discover-listing {
   list-style: none;
   color: #383636;
-  padding: 10px 0 10px 30px;
+  padding: px 0 10px 5px;
 }
 
 .discover-listing li {
@@ -222,9 +222,14 @@ body {
 
 .discover-name {
   color: orangered;
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px auto;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
+}
+
+.discover-line {
+  border: 1px solid orangered;
+  width: 10%;
 }
 
 .partner {
@@ -250,6 +255,7 @@ body {
 }
 
 .partner-img {
+  filter: grayscale(100%) contrast(30%);
   width: 30%;
 }
 
@@ -396,6 +402,10 @@ body {
     font-weight: 900;
     color: orangered;
     padding-left: 50px;
+  }
+
+  .nav-logo span {
+    color: rgb(44, 44, 44);
   }
 
   .nav-list-menu {
