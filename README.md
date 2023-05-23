@@ -134,8 +134,7 @@ Install this project with:
 
 > Features to be added in this project include.
 
-- Mobile design
-- Desktop design
+- exhibition Part
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
