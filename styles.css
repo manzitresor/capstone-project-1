@@ -313,41 +313,40 @@ body {
   text-align: center;
 }
 
-.exhibition-content {
+.exhibition-card-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin: 20px auto;
+  gap: 20px;
+  margin: 20px;
 }
 
-.image-container {
-  position: relative;
-  cursor: pointer;
-}
-
-.exbition-img {
-  position: relative;
+.exhibition-card-one{
   width: 100%;
-  height: 30vh;
-  opacity: 0.4;
+  height: 190px;
+  background-image: url('./images/exbition1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.exbition-img-2 {
-  position: relative;
+.card-one-heading{
+    width: 100%;
+    height: 100%;
+    background-color: #ec5342b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.exhibition-card-two {
+  background-image: url('./images/exbition2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 30vh;
-  object-fit: cover;
-  opacity: 0.5;
+  height: 190px;
 }
 
-.image-descr {
-  position: absolute;
-  margin-left: 50%;
-  margin-top: -20%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-weight: 900;
-}
 
 @media only screen and (min-width: 768px) {
   .menu-bar {
@@ -547,4 +546,35 @@ body {
     width: 80%;
     padding-top: 10px;
   }
+
+  .content-one {
+    padding: 7% 10% 15% 10%;
+  }
+  .our-mission-heading {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+
+  .our-mission-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+    margin: auto 10%;
+  }
+
+  .exhibition-card-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .exhibition-card-one {
+    width: 100%;
+    height: 280px;
+  }
+
+  .exhibition-card-two {
+    width: 100%;
+    height: 280px;
+  }
+
 }
