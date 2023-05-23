@@ -433,7 +433,7 @@ body {
 
   .heading-two {
     font-size: 60px;
-    line-height: 100%
+    line-height: 100%;
   }
 
   .welcome-content {
@@ -477,7 +477,7 @@ body {
 
   .Contemporary-image {
     width: 80%;
-    height: 130px
+    height: 130px;
   }
 
   .contemporary-heading {
@@ -495,7 +495,7 @@ body {
 
   .discover-card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 10%;
     height: 80vh;
   }
@@ -520,5 +520,4 @@ body {
   .logo {
     width: 200px;
   }
-
 }
