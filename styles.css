@@ -31,9 +31,9 @@ body {
 }
 
 .close-btn {
- float: right;
- list-style: none;
- cursor: pointer;
+  float: right;
+  list-style: none;
+  cursor: pointer;
 }
 
 .up-nav {
@@ -372,7 +372,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .menu-list{
+  .menu-list {
     display: none;
   }
 
@@ -577,7 +577,7 @@ body {
   .content-one {
     padding: 7% 10% 15% 10%;
   }
-  
+
   .our-mission-heading {
     font-size: 28px;
     padding-bottom: 20px;
