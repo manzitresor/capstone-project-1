@@ -351,7 +351,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .artworks,
   .discover,
   .partner,
   .footer {
@@ -394,11 +393,6 @@ body {
     padding: 10px;
   }
 
-  .nav-list-menu li a:hover {
-    cursor: pointer;
-    color: orangered;
-  }
-
   .up-nav {
     display: flex;
     justify-content: end;
@@ -423,15 +417,20 @@ body {
     color: #fff;
   }
 
+  .nav-list-menu li a:hover {
+    cursor: pointer;
+    color: orangered;
+  }
+
   .main-section {
     background-image: url('./images/desktop-about-bg_img.jpg');
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
 
   .main-content {
-    margin: auto 100px; 
+    margin: auto 100px;
     width: 80%;
   }
 
@@ -444,7 +443,7 @@ body {
     line-height: 100%
   }
 
-  .welcome-content{
+  .welcome-content {
     width: 100%;
     line-height: 100%;
     font-size: 22px;
@@ -464,4 +463,40 @@ body {
     font-size: 18px;
   }
 
+  .line {
+    width: 3%;
+    margin-left: 48%;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .Contemporary {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .Contemporary-image {
+    width: 80%;
+    height: 130px
+  }
+
+  .contemporary-heading {
+    width: 100%;
+    font-size: 16px;
+    color: orangered;
+    overflow-wrap: break-word;
+  }
+
+  .contemporary-paragraph {
+    color: #ebe2e2;
+    font-weight: 400;
+    font-size: 13px;
+  }
 }
