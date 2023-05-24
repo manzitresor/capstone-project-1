@@ -50,7 +50,7 @@ body {
 }
 
 .main-section {
-  background-image: url('./images/Website-background.png');
+  background-image: url('../images/Website-background.png');
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -79,7 +79,7 @@ body {
 }
 
 .heading-two {
-  background-image: url('./images/heading-background.jpg');
+  background-image: url('../images/heading-background.jpg');
   background-size: 180px;
   font-weight: 900;
   font-size: 30px;
@@ -119,7 +119,7 @@ body {
 }
 
 .artworks {
-  background-image: url('./images/program-section-bg.png');
+  background-image: url('../images/program-section-bg.png');
   width: 100%;
   height: 100%;
 }
@@ -375,7 +375,7 @@ body {
 .exhibition-card-one {
   width: 100%;
   height: 190px;
-  background-image: url('./images/exbition1.jpg');
+  background-image: url('../images/exbition1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -393,7 +393,7 @@ body {
 }
 
 .exhibition-card-two {
-  background-image: url('./images/exbition2.jpg');
+  background-image: url('../images/exbition2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -471,7 +471,7 @@ body {
   }
 
   .main-section {
-    background-image: url('./images/desktop-about-bg_img.jpg');
+    background-image: url('../images/desktop-about-bg_img.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;
