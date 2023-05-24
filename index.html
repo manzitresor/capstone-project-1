@@ -5,10 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
-    <script src="script.js"></script>
+        <header class="header">
+            <!-- Menu Navigation Bar for mobile -->
+            <nav class="nav-bar">
+                <div class="menu-bar">
+                    <i class="fa fa-bars" aria-hidden="true" id="menu-button"></i>
+                    </div>
+                   <ul class="menu-list">
+                    <li class="close-btn">&times;</li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#artworks">ArtWorks</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    </ul>
+               <!-- Upper Navigation List -->
+               <div class="up-nav">
+                 <ul class="up-nav-list">
+                    <li><a href="#"></a><i class="fa fa-desktop" aria-hidden="true"></i></li>
+                    <li><a href="#"></a><i class="fa fa-fax" aria-hidden="true"></i></li>
+                    <li><a href="#">B Corp</a></li>
+                    <li><a href="#">Editorial</a></li>
+                    <li><a href="#">Log In</a></li>
+                 </ul>
+               </div>
+               <!-- Main Navigation Bar -->
+               <div class="nav-list">
+                    <a href="./index.html" class="nav-logo">Art<span>W</span>ork Gallery</a>
+                    <ul class="nav-list-menu">
+                        <li id="home"> <a href="/index.html">Home</a></li>
+                        <li id=""> <a href="#artworks">ArtWorks</a></li>
+                        <li id=""> <a href="#discover">Discover</a></li>
+                        <li id=""> <a href="#partners">Partners</a></li>
+                        <li><a href="/about.html">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="main-section">
+        <div class="main-content">
+            <h2 class="heading-one">Collect art and design online</h2>
+            <h1 class="heading-two">Discover the Beauty and creativity of Art: A Gallery of Inspiration</h1>
+            <p class="welcome-content">Welcome to our artwork gallery, where creativity comes to life.
+            Immerse yourself in a world of color, form, and expression as you explore a diverse collection of artworks from talented artists.
+            </p>
+                <div class="authentic">
+                    <i class="fa fa-book" aria-hidden="true"></i>   
+                    <div>
+                    <h2 class="authentic-heading">Authentic, hand-crafted art</h2>
+                    <p class="authentic-paragraph">With every brushstroke and every chisel mark, these artworks carry a unique story </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="artworks" id="artworks">
+        <h2 class="artwork-heading">Art Works</h2>
+        <hr class="line">
+        <div class="card-container">
+            
+        </div>
+    </section>
+    <section class="discover" id="discover">
+        <h1 class="discover-heading">
+            Discover artists 
+        </h1>
+        <hr class="line">
+        <div class="discover-card-container">
+           
+        </div>
+    </section>
+    <section class="partner" id="partners">
+    <h3 class="partener-heading">Partners</h3>
+    <hr class="line">
+        <div class="partner-images">
+        <img src="./images/mozilla.png" alt="mozilla" class="partner-img">
+        <img src="images/google.png" alt="google" class="partner-img">
+        <img src="./images/CNN-logo.png" alt="cnn" class="partner-img">
+        <img src="images/airbnb-logo.svg" alt="airbnb" class="partner-img">
+        <img src="./images/download.png" alt="blomberg" class="partner-img">
+        </div>
+    </section>
+    <footer class="footer">
+     <a href="./index.html" class="nav-logo">Art<span>W</span>ork Gallery</a>
+     <p class="copyright">copy right &copy; Manzi Tresor 2023</p>
+    </footer>
+<script src="script.js"></script>
 </body>
 </html>
