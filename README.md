@@ -23,9 +23,6 @@
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -70,6 +67,11 @@
 
 ### Live Demo <a name="live-demo"></a>
 Live Demo Link: <a href="https://manzitresor.github.io/capstone-project-1/">Live demo</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Video Presentation <a name="live-demo"></a>
+ <a href="https://www.loom.com/share/c34d820e5ec54f80a60ce9c6337348cd">Video Presentation</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +165,8 @@ If you like this project,
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse community
+I would like to thank the Microverse community and I would like to expless
+my gratitude to Cindy Shin (https://www.behance.net/adagio07) for creating template design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
