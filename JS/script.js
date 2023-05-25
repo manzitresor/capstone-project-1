@@ -14,7 +14,7 @@ closeBtn.addEventListener('click', (event) => {
   menuButton.style.display = 'block';
 });
 
-const artwork = [
+const artworks = [
   {
     image: './images/pexels-steve-johnson-1266808.jpg',
     name: 'Contemprary art',
@@ -44,12 +44,12 @@ const artwork = [
 
 const cardContainer = document.querySelector('.card-container');
 
-artwork.forEach((project) => {
+artworks.forEach((artwork) => {
   const artworkHTML = `
     <div class="Contemporary">
-    <img src="${project.image}" alt="Contemporary-image" class="Contemporary-image">
-    <h2 class="contemporary-heading">${project.name}</h2>
-    <p class="contemporary-paragraph">${project.descr}</p>
+    <img src="${artwork.image}" alt="Contemporary-image" class="Contemporary-image">
+    <h2 class="contemporary-heading">${artwork.name}</h2>
+    <p class="contemporary-paragraph">${artwork.descr}</p>
     </div>
     `;
   cardContainer.innerHTML += artworkHTML;
